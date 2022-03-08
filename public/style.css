@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+  display: grid;
+
+  place-items: center;
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.04),
+      rgba(0, 0, 0, 0.08),
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0.04),
+      rgba(0, 0, 0, 0.01),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.09),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.03),
+      transparent,
+      rgba(0, 0, 0, 0.07),
+      rgba(0, 0, 0, 0.03),
+      rgba(0, 0, 0, 0.06) 4px
+    ),
+    linear-gradient(90deg, rgb(193, 255, 253), rgb(59, 104, 247));
+}
+.title {
+  margin-bottom: 2rem;
+}
+
+
+.back{
+  position:absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: larger;
+  
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,19 @@
+<%- include('header') %> 
+  <body>
+    <div class="weather-box">
+      <h1 class="text-center title">Find the current weather of your city</h1>
+      <form action="/" class="form" method="post">
+        <input
+          type="text"
+          name="city"
+          class="city-input form-control mb-1"
+          placeholder="Enter the city"
+          required
+        />
+        <button type="submit" class="btn btn-primary form-control">
+          <i class="bi bi-send"></i>send
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

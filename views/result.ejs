@@ -1,0 +1,16 @@
+<%- include('header') %> 
+  <body>
+    <div class="back">
+      <a href="/"> <i class="bi bi-backspace"></i>Back</a>
+    </div>
+    <div class="result-box text-center">
+      
+      <h1>The current weather in <%= query %>  is <%=temp %></h1>
+    
+    <h3>The weather condition is <%= weatherDescription %></h3>
+    <img src="<%= imgUrl %>" alt="<%= weatherDescription %>icon">
+    </div>
+
+    
+  </body>
+</html>
